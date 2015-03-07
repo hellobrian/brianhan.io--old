@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+.git
+
+# NPM
+npm-debug.log
+node_modules
+bower_components
+.sass-cache
+*.css

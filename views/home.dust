@@ -1,0 +1,4 @@
+{>layout/}
+{<content}
+  {> "partials/_hero-section.dust" /}
+{/content}

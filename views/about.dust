@@ -1,0 +1,8 @@
+{>layout/}
+{<content}
+  <section class="sign-up">
+    <form class="sign-up-form">
+      this is a sign-up form.
+    </form>
+  </section>
+{/content}

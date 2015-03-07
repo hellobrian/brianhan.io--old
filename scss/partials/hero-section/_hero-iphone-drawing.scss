@@ -1,0 +1,84 @@
+.iphone {
+  display: inline-block;
+  border: 2.5px solid $faded-black;
+  border-radius: rem(8px);
+  width: rem(85px);
+  height: rem(160px);
+  .ear-piece {
+    display: block;
+    border: rem(1px) solid $faded-black;
+    // background-color: $faded-black;
+    // border-radius: 20%;
+    margin: rem(5px) auto;
+    width: 20%;
+    height: rem(3px);
+  }
+  .screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid $faded-black;
+    margin: 0 auto;
+    width: 87.5%;
+    height: 75%;
+    .ui-navbar {
+      border-bottom: 1px solid $faded-black;
+      background-color: $white;
+      width: 100%;
+      height: rem(20px);
+    }
+    .ui-profile {
+      background-color: $white;
+      border: 1px solid $faded-black;
+      border-radius: 50%;
+      margin: rem(5px) auto 0;
+      width: rem(25px);
+      height: rem(25px);
+    }
+    .ui-username {
+      background-color: $white;
+      border: 1px solid $faded-black;
+      margin: rem(5px) auto 0;
+      width: rem(60px);
+      height: rem(10px);
+    }
+    .ui-usertitle {
+      background-color: $white;
+      border-left: 1px solid $faded-black;
+      border-right: 1px solid $faded-black;
+      border-bottom: 1px solid $faded-black;
+      margin: 0 auto;
+      width: rem(60px);
+      height: rem(5px);
+    }
+    .ui-cta {
+      // background-color: $white;
+      background-color: $green;
+      border: 1px solid $faded-black;
+      border-radius: 5px;
+      margin: rem(5px) auto;
+      width: rem(30px);
+      height: rem(10px);
+    }
+    .ui-bottom-nav {
+      display: flex;
+      border-top: 1px solid $faded-black;
+      background-color: $white;
+      width: 100%;
+      height: rem(15px);
+      .divider {
+        width: 33.33%;
+        height: 100%;
+        border-right: 1px solid $faded-black;
+      }
+    }
+  }
+
+  .home-button {
+    border: rem(1px) solid $faded-black;
+    border-radius: 50%;
+    margin: rem(3px) auto;
+    width: rem(18px);
+    height: rem(18px);
+  }
+}

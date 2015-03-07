@@ -1,0 +1,47 @@
+.macbook {
+  display: inline-block;
+  // border: 2.5px solid $faded-black;
+  // border-radius: rem(8px);
+  width: rem(220px);
+  height: rem(160px);
+  .top-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2.5px solid $faded-black;
+    border-left: 2.5px solid $faded-black;
+    border-right: 2.5px solid $faded-black;
+    border-top-left-radius: rem(10px);
+    border-top-right-radius: rem(10px);
+    margin: 0 auto;
+    width: 85%;
+    height: rem(120px);
+    .screen {
+      border: 1px solid $faded-black;
+      width: 92%;
+      height: rem(105px);
+    }
+  }
+  .bottom-layer {
+    border: 2.5px solid $faded-black;
+    border-bottom-left-radius: rem(12px);
+    border-bottom-right-radius: rem(12px);
+    width: 100%;
+    height: rem(15px);
+    .edge {
+      border-bottom: 1px solid $faded-black;
+      width: 100%;
+      height: rem(7px);
+      .lip {
+        border-left: 1px solid $faded-black;
+        border-right: 1px solid $faded-black;
+        border-bottom: 1px solid $faded-black;
+        border-bottom-left-radius: rem(10px);
+        border-bottom-right-radius: rem(10px);
+        margin: 0 auto;
+        width: 20%;
+        height: rem(3px);
+      }
+    }
+  }
+}

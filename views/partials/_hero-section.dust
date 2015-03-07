@@ -1,0 +1,48 @@
+<section class="hero-section">
+  <ul class="hero-description">
+    <li class="line-wrapper">
+      <p class="line">I create</p>
+      <p class="line">experiences</p>
+      <p class="line">for the web.</p>
+    </li>
+    {! <li class="line-wrapper">
+      <p class="line">Making responsive,</p>
+      <p class="line">mobile-first experiences</p>
+      <p class="line">that solve problems with</p>
+      <p class="line">human-centric design &mdash;</p>
+      <p class="line">it's kind of awesome.</p>
+    </li> !}
+  </ul>
+  <div class="devices">
+    {! iPhone Drawing Start !}
+    <div class="iphone">
+      <div class="ear-piece"></div>
+      <div class="screen">
+        <div class="ui-navbar"></div>
+        <div class="container">
+          <div class="ui-profile"></div>
+          <div class="ui-username"></div>
+          <div class="ui-usertitle"></div>
+          <div class="ui-cta"></div>
+        </div>
+        <div class="ui-bottom-nav">
+          <div class="divider"></div>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="home-button"></div>
+    </div>
+
+    {! Macbook Drawing Start !}
+    <div class="macbook">
+      <div class="top-layer">
+        <div class="screen"></div>
+      </div>
+      <div class="bottom-layer">
+        <div class="edge">
+          <div class="lip"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Karla:400,700|Arimo:400,700|Oxygen:400,700|Permanent+Marker);
+
+//---------------- ARIMO ----------------//
+%arimo {
+  font-family: 'Arimo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+%arimo-normal {
+  @extend %arimo;
+  font-weight: 400;
+}
+
+%arimo-bold {
+  @extend %arimo;
+  font-weight: 700;
+}
+
+//---------------- KARLA ----------------//
+%karla {
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+%karla-normal {
+  @extend %karla;
+  font-weight: 400;
+}
+
+%karla-bold {
+  @extend %karla;
+  font-weight: 700;
+}
+
+//---------------- LATO ----------------//
+%lato {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+%lato-light {
+  @extend %lato;
+  font-weight: 300;
+}
+
+%lato-normal {
+  @extend %lato;
+  font-weight: 400;
+}
+
+%lato-bold {
+  @extend %lato;
+  font-weight: 700;
+}
+
+%lato-ultrabold {
+  @extend %lato;
+  font-weight: 900;
+}
+
+//---------------- OXYGEN ----------------//
+%oxygen {
+  font-family: 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+%oxygen-normal {
+  @extend %oxygen;
+  font-weight: 400;
+}
+
+%oxygen-bold {
+  @extend %oxygen;
+  font-weight: 700;
+}
+
+//---------------- OXYGEN ----------------//
+%permanent-marker {
+  font-family: 'Permanent Marker', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

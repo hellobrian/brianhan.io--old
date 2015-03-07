@@ -1,0 +1,13 @@
+@import 'vendor/reset';
+@import 'functions';
+@import 'theme/colors';
+@import 'theme/fonts';
+@import 'partials/navbar';
+
+@import 'partials/hero-section/hero';
+@import 'partials/hero-section/hero-iphone-drawing';
+@import 'partials/hero-section/hero-macbook-drawing';
+
+body {
+  font-size: $base-font-size;
+}

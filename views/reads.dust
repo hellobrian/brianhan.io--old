@@ -1,0 +1,4 @@
+{>layout/}
+{<content}
+  <h1>this is a read list</h1>
+{/content}

@@ -1,0 +1,11 @@
+.navbar {
+  background-color: $white;
+  padding: rem(15px) 0 rem(15px) rem(25px);
+  .home {
+    // @extend %oxygen-bold;
+    @extend %permanent-marker;
+    color: $faded-black;
+    font-size: 100%;
+    text-decoration: none;
+  }
+}
