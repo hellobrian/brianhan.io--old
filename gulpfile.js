@@ -61,5 +61,3 @@ gulp.task('default', ['sass', 'browser-sync'], function () {
     gulp.watch(SOURCE.scss, ['sass']);
     gulp.watch([SOURCE.js, SOURCE.dust], ['bs-reload'])
 });
-
-module.exports = gulp;
