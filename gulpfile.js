@@ -4,7 +4,6 @@ scsslint = require('gulp-scss-lint'),
 size = require('gulp-size'),
 csso = require('gulp-csso'),
 autoprefixer = require('gulp-autoprefixer'),
-pagespeed = require('psi'),
 browserSync = require('browser-sync'),
 plumber = require('gulp-plumber'),
 reload = browserSync.reload;
