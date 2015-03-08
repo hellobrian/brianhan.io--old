@@ -1,9 +1,6 @@
 .macbook {
   display: inline-block;
-  // border: 2.5px solid $faded-black;
-  // border-radius: rem(8px);
-  width: rem(220px);
-  height: rem(160px);
+  width: rem(200px);
   .top-layer {
     display: flex;
     justify-content: center;
@@ -14,12 +11,12 @@
     border-top-left-radius: rem(10px);
     border-top-right-radius: rem(10px);
     margin: 0 auto;
-    width: 85%;
-    height: rem(120px);
+    width: 80%;
+    height: rem(110px);
     .screen {
       border: 1px solid $faded-black;
       width: 92%;
-      height: rem(105px);
+      height: rem(90px);
     }
   }
   .bottom-layer {

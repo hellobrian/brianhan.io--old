@@ -13,7 +13,7 @@
       <p class="line">it's kind of awesome.</p>
     </li> !}
   </ul>
-  <div class="devices">
+  <div class="devices-row">
     {! iPhone Drawing Start !}
     <div class="iphone">
       <div class="ear-piece"></div>

@@ -7,7 +7,7 @@
 
 .hero-description {
   @extend %karla-normal;
-  margin-left: rem(25px);
+  margin-left: rem(15px);
   padding: rem(25px) 0;
   color: $faded-black;
 
@@ -16,6 +16,7 @@
     line-height: 1;
     .line {
       display: inline-block;
+      width: 100%;
     }
     &:first-child {
       @extend %karla-bold;
@@ -25,21 +26,14 @@
   }
 }
 
-.devices {
-  .iphone {
-    background-color: $yellow;
-    position: absolute;
-    z-index: 1;
-    top: rem(190px);
-    left: rem(15px);
-    // left: rem(5px);
-  }
-  .macbook {
-    position: absolute;
-    z-index: 0;
-    top: rem(240px);
-    left: 90px;
-  }
+.devices-row {
+  // background-color: orange;
+  margin-left: rem(15px);
+  padding-right: rem(10px);
+  width: rem(295px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 
