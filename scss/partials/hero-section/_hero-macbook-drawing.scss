@@ -3,7 +3,8 @@
   width: rem(200px);
   .top-layer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     border-top: 2.5px solid $faded-black;
     border-left: 2.5px solid $faded-black;
@@ -13,6 +14,13 @@
     margin: 0 auto;
     width: 80%;
     height: rem(110px);
+    .i-sight-camera {
+      border: 1px solid $faded-black;
+      border-radius: 100%;
+      width: rem(5px);
+      height: rem(5px);
+      margin: rem(2.75px) 0;
+    }
     .screen {
       border: 1px solid $faded-black;
       width: 92%;
