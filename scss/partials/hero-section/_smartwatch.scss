@@ -1,0 +1,76 @@
+.smartwatch {
+  width: rem(80px);
+  height: rem(110px);
+  .wrist-strap {
+    background-color: $yellow;
+    border-left: 2.5px solid $faded-black;
+    border-right: 2.5px solid $faded-black;
+    position: relative;
+    width: 50%;
+    height: rem(20px);
+    margin: 0 auto;
+    &:first-child {
+      border-top: 1px solid $faded-black;
+      border-bottom: 2.5px solid $faded-black;
+      border-top-left-radius: rem(8px);
+      border-top-right-radius: rem(8px);
+      border-bottom-left-radius: rem(2px); 
+      border-bottom-right-radius: rem(2px); 
+      top: rem(10px);
+    }
+    &:last-child {
+      bottom: rem(10px);
+      border-top: 2.5px solid $faded-black;
+      border-bottom: 1px solid $faded-black;
+      border-top-left-radius: rem(2px);
+      border-top-right-radius: rem(2px);
+      border-bottom-left-radius: rem(8px); 
+      border-bottom-right-radius: rem(8px);
+    }
+  }
+  .watch-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .left-button {
+      border-left: 1px solid $faded-black;
+      border-top: 1px solid $faded-black;
+      border-bottom: 1px solid $faded-black;
+      margin-top: rem(20px);
+      width: rem(3px);
+      height: rem(30px);
+    }
+    .watch-face {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2.5px solid $faded-black;
+      // margin: 0 auto;
+      width: rem(60px);
+      height: rem(90px); 
+      .screen {
+        border: 1px solid $faded-black;
+        width: 70%;
+        height: rem(55px);
+      }
+    }
+    .right-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: rem(3px);
+      height: rem(90px);
+      .button {
+        border-top: 1px solid $faded-black;
+        border-right: 1px solid $faded-black;
+        border-bottom: 1px solid $faded-black;
+        width: 100%;
+        height: rem(16px);
+        &:nth-child(even) {
+          height: rem(15px);
+          margin: rem(5px) 0;
+        }
+      }
+    }
+  }
+}

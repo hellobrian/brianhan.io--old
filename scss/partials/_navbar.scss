@@ -1,11 +1,14 @@
 .navbar {
   background-color: $white;
-  padding: rem(15px) 0 rem(15px) rem(25px);
+  padding: rem(20px) 0;
   .home {
-    // @extend %oxygen-bold;
-    @extend %permanent-marker;
+    @extend %lato-bold;
+    margin-left: rem(15px);
     color: $faded-black;
-    font-size: 100%;
+    font-size: 110%;
+    letter-spacing: rem(8px);
+    line-height: 1;
     text-decoration: none;
+    text-transform: lowercase;
   }
 }

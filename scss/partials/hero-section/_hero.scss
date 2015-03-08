@@ -1,60 +1,30 @@
 .hero-section {
   background-color: $yellow;
-  // padding: 0 0 0 rem(25px);
   height: 800vh;
   width: 100%;
 }
 
 .hero-description {
-  @extend %karla-normal;
   margin-left: rem(15px);
   padding: rem(25px) 0;
-  color: $faded-black;
-
-  .line-wrapper {
-    font-size: 110%;
-    line-height: 1;
-    .line {
-      display: inline-block;
-      width: 100%;
-    }
-    &:first-child {
-      @extend %karla-bold;
-      font-size: 200%;
-      // padding: 0 0 rem(25px);
-    }
+  .line {
+    @extend %karla-bold;
+    color: $faded-black;
+    display: inline-block;
+    font-size: 150%;
+    letter-spacing: rem(-1.5px);
+    margin: rem(1.5px) 0;
+    width: 100%;
   }
 }
 
 .devices-row {
   // background-color: orange;
   margin-left: rem(15px);
+  margin-bottom: rem(15px);
   padding-right: rem(10px);
   width: rem(295px);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
-
-
-// .slideLeft{
-//   animation-name: slideLeft;
-//   -webkit-animation-name: slideLeft;  
-
-//   animation-duration: 0.75s; 
-//   -webkit-animation-duration: 0.75s;
-
-//   animation-timing-function: ease-in-out; 
-//   -webkit-animation-timing-function: ease-in-out;   
-
-//   visibility: visible !important; 
-// }
-
-// @keyframes slideLeft {
-//   0% {
-//     transform: translateX(150%);
-//   }
-//   100% {
-//     transform: translateX(0%);
-//   }
-// }

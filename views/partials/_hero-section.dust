@@ -1,21 +1,14 @@
 <section class="hero-section">
   <ul class="hero-description">
     <li class="line-wrapper">
-      <p class="line">I love</p>
-      <p class="line">building</p>
+      <p class="line">I love creating</p>
       <p class="line">experiences</p>
-      <p class="line">for the web.</p>
+      <p class="line">for people with</p>
+      <p class="line">code + design.</p>
     </li>
-    {! <li class="line-wrapper">
-      <p class="line">Making responsive,</p>
-      <p class="line">mobile-first experiences</p>
-      <p class="line">that solve problems with</p>
-      <p class="line">human-centric design &mdash;</p>
-      <p class="line">it's kind of awesome.</p>
-    </li> !}
   </ul>
   <div class="devices-row">
-    {! iPhone Drawing Start !}
+    {! iPhone Drawing !}
     <div class="iphone">
       <div class="ear-piece"></div>
       <div class="screen">
@@ -34,7 +27,7 @@
       <div class="home-button"></div>
     </div>
 
-    {! Macbook Drawing Start !}
+    {! Macbook Drawing !}
     <div class="macbook">
       <div class="top-layer">
         <div class="i-sight-camera"></div>
@@ -45,6 +38,25 @@
           <div class="lip"></div>
         </div>
       </div>
+    </div>
+  </div>
+  
+  <div class="devices-row">
+    {! Smartwatch Drawing !}
+    <div class="smartwatch">
+      <div class="wrist-strap"></div>
+      <div class="watch-body">
+        <div class="left-button"></div>
+        <div class="watch-face">
+          <div class="screen"></div>
+        </div>
+        <div class="right-buttons">
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+      </div>
+      <div class="wrist-strap"></div>
     </div>
   </div>
 </section>

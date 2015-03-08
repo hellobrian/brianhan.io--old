@@ -5,8 +5,9 @@
 @import 'partials/navbar';
 
 @import 'partials/hero-section/hero';
-@import 'partials/hero-section/hero-iphone-drawing';
-@import 'partials/hero-section/hero-macbook-drawing';
+@import 'partials/hero-section/iphone';
+@import 'partials/hero-section/macbook';
+@import 'partials/hero-section/smartwatch';
 
 body {
   font-size: $base-font-size;
