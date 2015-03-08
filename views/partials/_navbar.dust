@@ -5,16 +5,13 @@
       {! <div class="last-name">han</div> !}
     </a>  
   </div>
-  <div class="verb">
-    <a href="/reads" class="nav-item">reads</a>
+  <div class="nav-date">
+    <a href="/today" class="nav-item">today</a>
   </div>
-  <div class="verb">
-    <a href="/watches" class="nav-item">watches</a>
+  <div class="nav-date">
+    <a href="/2014" class="nav-item">2014</a>
   </div>
-  <div class="verb">
-    <a href="/makes" class="nav-item">makes</a>
-  </div>
-  <div class="verb">
-    <a href="/listens" class="nav-item">listens</a>
+  <div class="nav-date">
+    <a href="/2013" class="nav-item">2013</a>
   </div>
 </nav>

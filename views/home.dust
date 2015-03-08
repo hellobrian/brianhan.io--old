@@ -1,4 +1,8 @@
 {>layout/}
 {<content}
   {> "partials/_hero-section.dust" /}
+  
+  {! {> "partials/_today-section.dust" /}
+  {> "partials/_2014-section.dust" /}
+  {> "partials/_2013-section.dust" /} !}
 {/content}

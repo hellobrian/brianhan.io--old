@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
   <body>
-    {> "partials/_navbar.dust" /}
+    {! {> "partials/_navbar.dust" /} !}
     {+content}
       Success. Prototype is ready.
     {/content}

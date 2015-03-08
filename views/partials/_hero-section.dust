@@ -1,10 +1,14 @@
 <section class="hero-section">
   <ul class="hero-description">
     <li class="line-wrapper">
-      <p class="line">I love creating</p>
+      <!-- <p class="line">I love creating</p>
       <p class="line">experiences</p>
       <p class="line">for people with</p>
-      <p class="line">code + design.</p>
+      <p class="line">code + design.</p> -->
+      <p class="line">My name is</p>
+      <p class="line">Brian Han.</p>
+      <p class="line">I build things</p>
+      <p class="line">for the web.</p>
     </li>
   </ul>
   <div class="devices-row small">

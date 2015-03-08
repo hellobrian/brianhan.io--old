@@ -5,21 +5,29 @@
 }
 
 .hero-description {
-  // margin-left: rem(15px);
   margin: 0 auto;
   padding: rem(25px) 0;
-  width: rem(205px);
+  width: rem(185px);
   .line {
     @extend %karla-bold;
     color: $faded-black;
     display: inline-block;
-    font-size: 200%;
+    font-size: 185%;
     letter-spacing: rem(-1.5px);
     margin: rem(1.5px) 0;
     width: 100%;
     text-align: left;
+
+    &:nth-child(2) {
+      background-color: salmon;
+      color: $white;
+      font-size: 200%;
+      padding-left: rem(10px);
+      width: rem(170px);
+    }
+
     &:last-child {
-      border-bottom: rem(4px) solid $faded-black;
+      font-size: 185%;
       padding-bottom: rem(15px);
     }
   }

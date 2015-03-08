@@ -11,7 +11,7 @@
     margin: 0 auto;
     &:first-child {
       border-top: rem(1.5px) solid $faded-black;
-      border-bottom: $thick-border;
+      border-bottom: $thin-border;
       border-top-left-radius: rem(8px);
       border-top-right-radius: rem(8px);
       border-bottom-left-radius: rem(2px); 
@@ -20,7 +20,7 @@
     }
     &:last-child {
       bottom: rem(10px);
-      border-top: $thick-border;
+      border-top: $thin-border;
       border-bottom: $thin-border;
       border-top-left-radius: rem(2px);
       border-top-right-radius: rem(2px);
@@ -37,8 +37,8 @@
       border-top: $thin-border;
       border-bottom: $thin-border;
       margin-top: rem(20px);
-      width: rem(3px);
-      height: rem(30px);
+      width: rem(2px);
+      height: rem(25px);
     }
     .watch-face {
       display: flex;
@@ -58,7 +58,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: rem(3px);
+      width: rem(2px);
       height: rem(90px);
       .button {
         border-top: $thin-border;
