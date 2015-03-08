@@ -1,14 +1,46 @@
 .navbar {
-  background-color: $white;
-  padding: rem(20px) 0;
-  .home {
-    @extend %lato-bold;
-    margin-left: rem(15px);
-    color: $faded-black;
-    font-size: 110%;
-    letter-spacing: rem(8px);
-    line-height: 1;
-    text-decoration: none;
-    text-transform: lowercase;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: rem(10px);
+  .logo {
+    background-color: $faded-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(45px);
+    height: rem(45px);
+    border: $thick-border;
+    .home {
+      @extend %lato-bold;
+      color: $white;
+      font-size: 100%;
+      line-height: 1;
+      text-decoration: none;
+      text-transform: lowercase;
+      .first-name {
+        font-size: 120%;
+      }
+    }
+  }
+  .verb {
+    border-top: $thick-border;
+    border-right: $thick-border;
+    border-bottom: $thick-border;
+
+    background-color: $yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: rem(45px);
+    padding: 0 rem(5px);
+    .nav-item {
+      @extend %lato-normal;
+      color: $faded-black;
+      text-decoration: none;
+    }
+    
   }
 }

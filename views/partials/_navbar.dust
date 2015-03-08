@@ -1,3 +1,20 @@
 <nav class="navbar">
-  <a class="nav-item home" href="/">Brian Han</a>
+  <div class="logo">
+    <a class="nav-item home" href="/">
+      <div class="first-name">Bri</div>
+      {! <div class="last-name">han</div> !}
+    </a>  
+  </div>
+  <div class="verb">
+    <a href="/reads" class="nav-item">reads</a>
+  </div>
+  <div class="verb">
+    <a href="/watches" class="nav-item">watches</a>
+  </div>
+  <div class="verb">
+    <a href="/makes" class="nav-item">makes</a>
+  </div>
+  <div class="verb">
+    <a href="/listens" class="nav-item">listens</a>
+  </div>
 </nav>
