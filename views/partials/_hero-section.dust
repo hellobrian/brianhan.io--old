@@ -1,7 +1,8 @@
 <section class="hero-section">
   <ul class="hero-description">
     <li class="line-wrapper">
-      <p class="line">I create</p>
+      <p class="line">I love</p>
+      <p class="line">building</p>
       <p class="line">experiences</p>
       <p class="line">for the web.</p>
     </li>
@@ -36,6 +37,7 @@
     {! Macbook Drawing Start !}
     <div class="macbook">
       <div class="top-layer">
+        <div class="i-sight-camera"></div>
         <div class="screen"></div>
       </div>
       <div class="bottom-layer">
