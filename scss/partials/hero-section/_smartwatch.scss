@@ -3,15 +3,15 @@
   height: rem(110px);
   .wrist-strap {
     background-color: $yellow;
-    border-left: 2.5px solid $faded-black;
-    border-right: 2.5px solid $faded-black;
+    border-left: $thick-border;
+    border-right: $thick-border;
     position: relative;
     width: 50%;
     height: rem(20px);
     margin: 0 auto;
     &:first-child {
-      border-top: 1px solid $faded-black;
-      border-bottom: 2.5px solid $faded-black;
+      border-top: rem(1.5px) solid $faded-black;
+      border-bottom: $thick-border;
       border-top-left-radius: rem(8px);
       border-top-right-radius: rem(8px);
       border-bottom-left-radius: rem(2px); 
@@ -20,8 +20,8 @@
     }
     &:last-child {
       bottom: rem(10px);
-      border-top: 2.5px solid $faded-black;
-      border-bottom: 1px solid $faded-black;
+      border-top: $thick-border;
+      border-bottom: $thin-border;
       border-top-left-radius: rem(2px);
       border-top-right-radius: rem(2px);
       border-bottom-left-radius: rem(8px); 
@@ -33,9 +33,9 @@
     justify-content: center;
     align-items: flex-start;
     .left-button {
-      border-left: 1px solid $faded-black;
-      border-top: 1px solid $faded-black;
-      border-bottom: 1px solid $faded-black;
+      border-left: $thin-border;
+      border-top: $thin-border;
+      border-bottom: $thin-border;
       margin-top: rem(20px);
       width: rem(3px);
       height: rem(30px);
@@ -44,12 +44,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 2.5px solid $faded-black;
+      border: $thick-border;
       // margin: 0 auto;
       width: rem(60px);
       height: rem(90px); 
       .screen {
-        border: 1px solid $faded-black;
+        border: $thin-border;
         width: 70%;
         height: rem(55px);
       }
@@ -61,9 +61,9 @@
       width: rem(3px);
       height: rem(90px);
       .button {
-        border-top: 1px solid $faded-black;
-        border-right: 1px solid $faded-black;
-        border-bottom: 1px solid $faded-black;
+        border-top: $thin-border;
+        border-right: $thin-border;
+        border-bottom: $thin-border;
         width: 100%;
         height: rem(16px);
         &:nth-child(even) {

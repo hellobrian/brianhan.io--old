@@ -1,6 +1,6 @@
 .hero-section {
   background-color: $yellow;
-  height: 800vh;
+  padding-bottom: rem(25px);
   width: 100%;
 }
 
@@ -25,7 +25,7 @@
   }
 }
 
-.devices-row {
+.devices-row {  
   display: flex;
   justify-content: space-between;
   margin: 0 auto rem(25px);

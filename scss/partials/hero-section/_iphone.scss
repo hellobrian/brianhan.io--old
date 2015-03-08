@@ -1,12 +1,12 @@
 .iphone {
   display: inline-block;
-  border: 2.5px solid $faded-black;
+  border: $thick-border;
   border-radius: rem(8px);
   width: rem(70px);
   height: rem(140px);
   .ear-piece {
     display: block;
-    border: rem(1px) solid $faded-black;
+    border: $thin-border;
     margin: rem(5px) auto;
     width: 20%;
     height: rem(3px);
@@ -15,19 +15,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid $faded-black;
+    border: $thin-border;
     margin: 0 auto;
     width: 87.5%;
     height: 75%;
     .ui-navbar {
-      border-bottom: 1px solid $faded-black;
+      border-bottom: $thin-border;
       background-color: $white;
       width: 100%;
       height: rem(15px);
     }
     .ui-profile {
       background-color: $white;
-      border: 1px solid $faded-black;
+      border: $thin-border;
       border-radius: 50%;
       margin: rem(5px) auto 0;
       width: rem(25px);
@@ -35,23 +35,23 @@
     }
     .ui-username {
       background-color: $white;
-      border: 1px solid $faded-black;
+      border: $thin-border;
       margin: rem(5px) auto 0;
       width: 70%;
       height: rem(6px);
     }
     .ui-usertitle {
       background-color: $white;
-      border-left: 1px solid $faded-black;
-      border-right: 1px solid $faded-black;
-      border-bottom: 1px solid $faded-black;
+      border-left: $thin-border;
+      border-right: $thin-border;
+      border-bottom: $thin-border;
       margin: 0 auto;
       width: 70%;
       height: rem(5px);
     }
     .ui-cta {
       background-color: $green;
-      border: 1px solid $faded-black;
+      border: $thin-border;
       border-radius: 5px;
       margin: rem(5px) auto;
       width: rem(30px);
@@ -59,20 +59,20 @@
     }
     .ui-bottom-nav {
       display: flex;
-      border-top: 1px solid $faded-black;
+      border-top: $thin-border;
       background-color: $white;
       width: 100%;
       height: rem(15px);
       .divider {
         width: 33.33%;
         height: 100%;
-        border-right: 1px solid $faded-black;
+        border-right: $thin-border;
       }
     }
   }
 
   .home-button {
-    border: rem(1px) solid $faded-black;
+    border: $thin-border;
     border-radius: 50%;
     margin: rem(3px) auto;
     width: rem(15px);

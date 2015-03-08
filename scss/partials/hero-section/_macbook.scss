@@ -6,41 +6,41 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-top: 2.5px solid $faded-black;
-    border-left: 2.5px solid $faded-black;
-    border-right: 2.5px solid $faded-black;
+    border-top: $thick-border;
+    border-left: $thick-border;
+    border-right: $thick-border;
     border-top-left-radius: rem(10px);
     border-top-right-radius: rem(10px);
     margin: 0 auto;
     width: 80%;
     height: rem(110px);
     .i-sight-camera {
-      border: 1px solid $faded-black;
+      border: $thin-border;
       border-radius: 100%;
       width: rem(5px);
       height: rem(5px);
       margin: rem(2.75px) 0;
     }
     .screen {
-      border: 1px solid $faded-black;
+      border: $thin-border;
       width: 92%;
       height: rem(90px);
     }
   }
   .bottom-layer {
-    border: 2.5px solid $faded-black;
+    border: $thick-border;
     border-bottom-left-radius: rem(12px);
     border-bottom-right-radius: rem(12px);
     width: 100%;
     height: rem(15px);
     .edge {
-      border-bottom: 1px solid $faded-black;
+      border-bottom: $thin-border;
       width: 100%;
       height: rem(7px);
       .lip {
-        border-left: 1px solid $faded-black;
-        border-right: 1px solid $faded-black;
-        border-bottom: 1px solid $faded-black;
+        border-left: $thin-border;
+        border-right: $thin-border;
+        border-bottom: $thin-border;
         border-bottom-left-radius: rem(10px);
         border-bottom-right-radius: rem(10px);
         margin: 0 auto;
