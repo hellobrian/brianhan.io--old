@@ -5,26 +5,34 @@
 }
 
 .hero-description {
-  margin-left: rem(15px);
+  // margin-left: rem(15px);
+  margin: 0 auto;
   padding: rem(25px) 0;
+  width: rem(205px);
   .line {
     @extend %karla-bold;
     color: $faded-black;
     display: inline-block;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: rem(-1.5px);
     margin: rem(1.5px) 0;
     width: 100%;
+    text-align: left;
+    &:last-child {
+      border-bottom: rem(4px) solid $faded-black;
+      padding-bottom: rem(15px);
+    }
   }
 }
 
 .devices-row {
-  // background-color: orange;
-  margin-left: rem(15px);
-  margin-bottom: rem(15px);
-  padding-right: rem(10px);
-  width: rem(295px);
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  margin: 0 auto rem(25px);
+  &.small {
+    width: rem(150px);
+  }
+  &.big {
+    width: rem(200px);
+  }
 }

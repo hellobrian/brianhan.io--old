@@ -7,7 +7,24 @@
       <p class="line">code + design.</p>
     </li>
   </ul>
-  <div class="devices-row">
+  <div class="devices-row small">
+    {! Smartwatch Drawing !}
+    <div class="smartwatch">
+      <div class="wrist-strap"></div>
+      <div class="watch-body">
+        <div class="left-button"></div>
+        <div class="watch-face">
+          <div class="screen"></div>
+        </div>
+        <div class="right-buttons">
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+      </div>
+      <div class="wrist-strap"></div>
+    </div>
+
     {! iPhone Drawing !}
     <div class="iphone">
       <div class="ear-piece"></div>
@@ -26,7 +43,9 @@
       </div>
       <div class="home-button"></div>
     </div>
-
+  </div>
+  
+  <div class="devices-row big">
     {! Macbook Drawing !}
     <div class="macbook">
       <div class="top-layer">
@@ -38,25 +57,6 @@
           <div class="lip"></div>
         </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="devices-row">
-    {! Smartwatch Drawing !}
-    <div class="smartwatch">
-      <div class="wrist-strap"></div>
-      <div class="watch-body">
-        <div class="left-button"></div>
-        <div class="watch-face">
-          <div class="screen"></div>
-        </div>
-        <div class="right-buttons">
-          <div class="button"></div>
-          <div class="button"></div>
-          <div class="button"></div>
-        </div>
-      </div>
-      <div class="wrist-strap"></div>
     </div>
   </div>
 </section>
