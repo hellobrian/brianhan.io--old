@@ -1,0 +1,7 @@
+<section class="social-stuff">
+  <div class="social-link-container">
+    <a href="https://github.com/thisisbrianhan" class="social-link">GitHub</a>
+    <a href="https://www.linkedin.com/in/thisisbrianhan" class="social-link">LinkedIn</a>
+    <a href="https://twitter.com/thisisbrianhan" class="social-link">Twitter</a>
+  </div>
+</section>

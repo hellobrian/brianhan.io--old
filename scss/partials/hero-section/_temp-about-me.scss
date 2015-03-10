@@ -25,6 +25,7 @@
     color: $white;
     @extend %karla-bold;
     font-size: 147.5%;
+    line-height: 1.2;
     letter-spacing: rem(-1.5px);
     .link {
       color: $white;

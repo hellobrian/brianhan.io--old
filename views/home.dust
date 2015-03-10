@@ -6,4 +6,5 @@
   {> "partials/_2014-section.dust" /}
   {> "partials/_2013-section.dust" /} !}
   {> "_temp-about-me.dust" /}
+  {> "_social-stuff.dust" /}
 {/content}

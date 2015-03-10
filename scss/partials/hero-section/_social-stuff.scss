@@ -1,0 +1,29 @@
+.social-stuff {
+  // padding: rem(25px) 0;
+  // width: rem(300px);
+  background-color: $eggshell-white;
+  width: 100%;
+  margin: 0 auto; 
+  .social-link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // border-top: $thick-border;
+    // border-left: $thick-border;
+    // border-bottom: $thick-border;
+
+    .social-link {
+      @extend %karla-bold;
+      // @extend %lato-ultrabold;
+      // border-right: $thick-border;
+      display: inline-block;
+      color: $black;
+      font-size: 110%;
+      padding: rem(40px) 0;
+      line-height: 1;
+      letter-spacing: rem(-1px);
+      text-align: center;
+      width: 33.333%;
+    }
+  }
+}
