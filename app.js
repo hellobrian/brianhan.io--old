@@ -6,7 +6,7 @@ var compression = require('compression');
 var app = express();
 var router = express.Router();
 
-app.use(compression);
+app.use(compression());
 
 // static files setup (css + js)
 app.use(express.static(path.join(__dirname, 'public')));
