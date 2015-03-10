@@ -2,8 +2,11 @@ var cons = require('consolidate');
 var dust = require('dustjs-linkedin');
 var express = require('express');
 var path = require('path');
+var compression = require('compression');
 var app = express();
 var router = express.Router();
+
+app.use(compression);
 
 // static files setup (css + js)
 app.use(express.static(path.join(__dirname, 'public')));
