@@ -14,7 +14,6 @@
     height: rem(45px);
     border: $thick-border;
     .home {
-      @extend %lato-bold;
       color: $white;
       font-size: 100%;
       line-height: 1;
@@ -37,7 +36,6 @@
     height: rem(45px);
     padding: 0 rem(5px);
     .nav-item {
-      @extend %lato-normal;
       color: $faded-black;
       text-decoration: none;
     }
