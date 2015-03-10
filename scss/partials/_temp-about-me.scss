@@ -1,0 +1,36 @@
+.lives {
+  background-color: $black;
+}
+
+.works {
+  background-color: $seattle-salmon;
+}
+
+.needs {
+  background-color: $faded-teal;
+}
+
+.about {
+  width: 100%;
+}
+
+.blurbs {
+  padding: rem(25px) 0;
+  width: rem(200px);
+  margin: 0 auto;
+}
+
+.blurb-wrapper {
+  .line {
+    color: $white;
+    @extend %karla-bold;
+    font-size: 147.5%;
+    letter-spacing: rem(-1.5px);
+    .link {
+      color: $white;
+      text-decoration: none;
+      border-bottom: rem(2.5px) solid $white;
+    }
+  }
+}
+  

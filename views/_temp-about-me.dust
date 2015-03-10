@@ -1,0 +1,30 @@
+<section class="lives about"> 
+  <ul class="blurbs">
+    <li class="blurb-wrapper">
+      <p class="line">Whereabouts:</p>
+      <p class="line">From Toronto.</p>
+      <p class="line">Living in Austin, TX.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="works about"> 
+  <ul class="blurbs">
+    <li class="blurb-wrapper">
+      <p class="line">Currently:</p>
+      <p class="line">Front-end developer</p>
+      <p class="line">at <a class="link" href="https://console.ng.bluemix.net/">IBM Bluemix.</a></p>
+    </li>
+  </ul>
+</section>
+
+<section class="needs about">
+  <ul class="blurbs">
+    <li class="blurb-wrapper">
+      <p class="line">Needs:</p>
+      <p class="line">Coffee (always).</p>
+      <p class="line">Americano (ideal).</p>
+    </li>
+  </ul>
+</section>
+
